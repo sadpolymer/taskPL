@@ -15,7 +15,7 @@ try:
         			#k = k - dif
         			#k = (dif - (n - k))
         			k = k - n
-	else:print("Оба занчения должны быть больше нуля.")
+	else:print("Оба значения должны быть больше нуля.")
 	answer = ''.join(str(e) for e in array)
 	print(answer);
 except Exception:
